@@ -1,0 +1,2472 @@
+1. Which of the following contains both date and time?
+a. java.io.date
+
+b. java.sql.date
+
+c. java.util.date
+
+d. java.util.datetime
+
+Answer: d. java.util.datetime
+
+2. Which of the following is advantage of using JDBC connection pool?
+a. slow performance
+
+b. using more memory
+
+c. using less memory
+
+d. better performance
+
+Answer: d. better performance
+
+3. Which of the following is advantage of using PreparedStatement in Java?
+a. slow performance
+
+b. encourages sql injection
+
+c. prevents sql injection
+
+d. more memory usage
+
+Answer: c. prevents sql injection
+
+4. Which one of the following contains date information?
+a. java.sql.timestamp
+
+b. java.sql.time
+
+c. java.io.time
+
+d. java.io.timestamp
+
+Answer: a. java.sql.timestamp
+
+5. What does setAutoCommit(false) do?
+a. commits transweraction after each query
+
+b. explicitly commits transweraction
+
+c. does not commit transweraction automatically after each query
+
+d. never commits transweraction
+
+Answer: c. does not commit transweraction automatically after each query
+
+6. Which of the following is used to call stored procedure?
+a. statement
+
+b. preparedstatement
+
+c. callablestatment
+
+d. calledstatement
+
+Answer: c. callablestatment
+
+7. Which of the following is method of JDBC batch process?
+a. setbatch()
+
+b. deletebatch()
+
+c. removebatch()
+
+d. addbatch()
+
+Answer: d. addbatch()
+
+8. Which of the following is used to rollback a JDBC trAnsweraction?
+a. rollback()
+
+b. rollforward()
+
+c. deletetransweraction()
+
+d. removetransweraction()
+
+Answer: a. rollback()
+
+9. Which driver uses ODBC driver to connect to the database?
+a. jdbc-odbc bridge driver
+
+b. native – api driver
+
+c. network protocol driver
+
+d. thin driver
+
+Answer: a. jdbc-odbc bridge driver
+
+10. How many JDBC product components does the Java software provides?
+a. 3
+
+b. 2
+
+c. 4
+
+d. 5
+
+Answer: a. 3
+
+11. How many types of JDBC drivers are available?
+a. 3
+
+b. 4
+
+c. 2
+
+d. 5
+
+Answer: b. 4
+
+12. Which result set generally does not show changes to the underlying database that are made while it is open. The membership, order, and column values of rows are typically fixed when the result set is created?
+a. type_forward_only
+
+b. type_scroll_insensitive
+
+c. type_scroll_sensitive
+
+d. all mentioned above
+
+Answer: b. type_scroll_insensitive
+
+13. Which method is used for an SQL statement that is executed frequently?
+a. prepare statement
+
+b. prepare call
+
+c. create statement
+
+d. none of the above
+
+Answer: a. prepare statement
+
+14. What is used to execute parameterized query?
+a. statement interface
+
+b. preparedstatement interface
+
+c. resultset interface
+
+d. none of the above
+
+Answer: b. preparedstatement interface
+
+15. Which JDBC product components does the Java software provide?
+a. the jdbc driver manager
+
+b. the jdbc driver test suite
+
+c. the jdbc-odbc bridge
+
+d. all mentioned above
+
+Answer: d. all mentioned above
+
+16. JDBC stands for?
+a. java database connectivity
+
+b. java database concept
+
+c. java database communications
+
+d. none of the above
+
+Answer: a. java database connectivity
+
+17. Which of the following allows non repeatable read in JDBC Connection?
+a. transweraction_read_uncommitted
+
+b. transweraction_read_committed
+
+c. transweraction_serializable
+
+d. transweraction_repeatable_read
+
+Answer: d. transweraction_repeatable_read
+
+18. Which of the following statements is false as far as different type of statements is concern in JDBC?
+a. regular statement
+
+b. prepared statement
+
+c. callable statement
+
+d. interim statement
+
+Answer: d. interim statement
+
+19. Which of the following methods are needed for loading a database driver in JDBC?
+a. registerdriver() method
+
+b. class.forname()
+
+c. both a and b
+
+d. getconnection()
+
+Answer: c. both a and b
+
+20. Which of the following is false as far as type 4 driver is concern?
+a. type 4 driver is “native protocol, pure java” driver
+
+b. type 4 drivers are 100% java compatible
+
+c. type 4 drivers uses socket class to connect to the database
+
+d. type 4 drivers can not be used with netscape
+
+Answer: d. type 4 drivers can not be used with netscape
+
+21. Which driver is efficient and always preferable for using JDBC applications?
+a. type – 4
+
+b. type – 1
+
+c. type – 3
+
+d. type – 2
+
+Answer: a. type – 4
+
+22. JDBC facilitates to store the java objects by using which of the methods of PreparedStatement setObject () 2. setBlob() 3. setClob()
+a. 1, 2
+
+b. 1,2,3
+
+c. 1,3
+
+d. 2,3
+
+Answer: b. 1,2,3
+
+23. The JDBC-ODBC bridge is
+a. three tiered
+
+b. multithreaded
+
+c. best for any platform
+
+d. all of the above
+
+Answer: b. multithreaded
+
+24. All raw data types (including binary documents or images) should be read and uploaded to the database as an array of
+a. byte
+
+b. int
+
+c. boolean
+
+d. char
+
+Answer: a. byte
+
+25. The class javA)sql.Timestamp has its super class as
+a. java)sql.time
+
+b. java)util.date
+
+c. java)util.time
+
+d. none of the above
+
+Answer: b. java)util.date
+
+26. BLOB, CLOB, ARRAY and REF type columns can be updated in
+a. jdbc 1.0
+
+b. jdbc 4.0
+
+c. jdbc 2.0
+
+d. jdbc 3.0
+
+Answer: d. jdbc 3.0
+
+27. Which of the following methods finds the maximum number of connections that a specific driver can obtain?
+a. database.getmaxconnections
+
+b. connection.getmaxconnections
+
+c. databasemetadata)getmaxconnections
+
+d. resultsetmetadata)getmaxconnections
+
+Answer: c. databasemetadata)getmaxconnections
+
+28. When the message “No Suitable Driver” occurs?
+a. when the driver is not registered by class.forname() method
+
+b. when the user name, password and the database does not match
+
+c. when the jdbc database url passed is not constructed properly
+
+d. when the type 4 driver is used
+
+Answer: c. when the jdbc database url passed is not constructed properly
+
+29. Which driver is called as thin-driver in JDBC?
+a. type-4 driver
+
+b. type-1 driver
+
+c. type-3 driver
+
+d. type-2 driver
+
+Answer: a. type-4 driver
+
+30. How many trAnsweraction isolation levels are defined in javA)sql.Connection interface?
+a. 4
+
+b. 3
+
+c. 5
+
+d. 2
+
+Answer: c. 5
+
+31. Which method is used to perform DML statements in JDBC?
+a. execute()
+
+b. executequery()
+
+c. executeupdate()
+
+d. executeresult()
+
+Answer: c. executeupdate()
+
+32. What is the disadvantage of Type-4 Native-Protocol Driver?
+a. at client side, a separate driver is needed for each database.
+
+b. type-4 driver is entirely written in java
+
+c. the driver converts jdbc calls into vendor-specific database protocol
+
+d. it does not support to read mysql data)
+
+Answer: a. at client side, a separate driver is needed for each database.
+
+33. TCP,FTP,Telnet,SMTP are example of?
+a. socket
+
+b. ip address
+
+c. protocol
+
+d. mac address
+
+Answer: c. protocol
+
+34. In Inetaddress class which method returns the host name of IP address?
+a. public string gethostname()
+
+b. public string gethostaddress()
+
+c. public string inetaddress getlocalhost()
+
+d. none
+
+Answer: a. public string gethostname()
+
+35. Show some networking terminology given below?
+a. all
+
+b. ip address
+
+c. protocol
+
+d. mac address
+
+Answer: a. all
+
+36. Which classes are used for connection less socket programming?
+a. datagram socket
+
+b. datagram packet
+
+c. both a and b
+
+d. none
+
+Answer: c. both a and b
+
+37. how many ports TCP/IP are reserved for specific protocol?
+a. 10
+
+b. 1024
+
+c. 2048
+
+d. 512
+
+Answer: b. 1024
+
+38. how many bits are in a single IP address?
+a. 8
+
+b. 16
+
+c. 32
+
+d. 64
+
+Answer: c. 32
+
+39. Which of these class is used to encapsulate IP address and DNS?
+a. datagram packet
+
+b. url
+
+c. inetaddress
+
+d. contenthandler
+
+Answer: c. inetaddress
+
+40. Which of these is return type of getAddress method of DatagramPacket class?
+a. findaddress()
+
+b. getaddress()
+
+c. address()
+
+d. whois()
+
+Answer: b. getaddress()
+
+41. Which of these method of DatagramPacket is used to find port number?
+a. port()
+
+b. getport()
+
+c. findport()
+
+d. receivedport()
+
+Answer: a. port()
+
+42. Which of these class is necessary to implement datagrams? DNYANSAGAR ARTS AND COMMERCE COLLEGE, BALEWADI,PUNE – 45 PROF . SUPRIYA MANE www.dacc.edu.in
+a. datagrampacket
+
+b. datagramsocket
+
+c. all of the mentioned
+
+d. none of the mentioned
+
+Answer: c. all of the mentioned
+
+43. Which of these method of DatagramPacket is used to find the port number?
+a. port()
+
+b. getport()
+
+c. findport()
+
+d. recieveport()
+
+Answer: a. port()
+
+44. Which of these method of DatagramPacket is used to obtain the byte array of data contained in a datagram?
+a. getdata()
+
+b. getbytes()
+
+c. getarray()
+
+d. recievebytes()
+
+Answer: a. getdata()
+
+45. Which of these method of DatagramPacket is used to find the length of byte array?
+a. getnumber()
+
+b. length()
+
+c. length()
+
+d. getlength()
+
+Answer: d. getlength()
+
+46. Which of these method is used to start a server thread?
+a. run()
+
+b. start()
+
+c. runthread()
+
+d. startthread()
+
+Answer: a. run()
+
+47. Which of these method is called when http daemon is acting like a normal web server?
+a. handle()
+
+b. handleget()
+
+c. handleget()
+
+d. handleget()
+
+Answer: c. handleget()
+
+48. Which of these methods of httpd class is used to read data from the stream?
+a. getdta()
+
+b. getresponse()
+
+c. getstream()
+
+d. getrawrequest()
+
+Answer: d. getrawrequest()
+
+49. Which of these method of httpd class is used to get report on each hit to HTTP server?
+a. log()
+
+b. logentry()
+
+c. loghttpd()
+
+d. logresponse()
+
+Answer: b. logentry()
+
+50. Which of these method is used to find a URL from the cache of httpd?
+a. findfromcache()
+
+b. findfromcache()
+
+c. servefromcache()
+
+d. getfromcache()
+
+Answer: c. servefromcache()
+
+51. Which of these variables stores the number of hits that are successfully served out of cache?
+a. hits
+
+b. hitstocache
+
+c. hits_to_cache
+
+d. hits.to.cache
+
+Answer: d. hits.to.cache
+
+52. Which of these method of httpd class is used to write UrlCacheEntry object into local disk?
+a. writediskcache()
+
+b. writetodisk()
+
+c. writecache()
+
+d. writediskentry()
+
+Answer: a. writediskcache()
+
+53. Which of these is an instance variable of class httpd?
+a. port
+
+b. cache
+
+c. log
+
+d. all of the mentioned
+
+Answer: d. all of the mentioned
+
+54. Which of these is an instance variable of httpd that is a Hashtable?
+a. port
+
+b. cache
+
+c. log
+
+d. stopflag
+
+Answer: c. log
+
+55. Which of these exception is thrown by URL class’s constructors?
+a. urlnotfound
+
+b. urlsourcenotfound
+
+c. malformedurlexception
+
+d. urlnotfoundexception
+
+Answer: c. malformedurlexception
+
+56. Which of these methods is used to know host of an URL?
+a. host()
+
+b. gethost()
+
+c. gethost()
+
+d. gethost()
+
+Answer: b. gethost()
+
+57. Which of these methods is used to know the full URL of an URL object?
+a. fullhost()
+
+b. gethost()
+
+c. externalform()
+
+d. toexternalform()
+
+Answer: d. toexternalform()
+
+58. Which of these class is used to access actual bits or content information of a URL?
+a. url
+
+b. urldecoder
+
+c. urlconnection
+
+d. all of the mentioned
+
+Answer: d. all of the mentioned
+
+59. Which object of HttpSession can be used to view and manipulate information about a session?
+a. session identifier
+
+b. creation time
+
+c. last accessed time
+
+d. all mentioned above
+
+Answer: d. all mentioned above
+
+60. Which of these ways used to communicate from an applet to servlet?
+a. rmi communication
+
+b. http communication
+
+c. socket communication
+
+d. all mentioned above
+
+Answer: d. all mentioned above
+
+61. Which methods are used to bind the objects on HttpSession instance andget the objects?
+a. setattribute
+
+b. getattribute
+
+c. both a & b
+
+d. none of the above
+
+Answer: c. both a & b
+
+62. Which type of ServletEngine is a server that includes built-in support for servlets?
+a. add-on servletengine
+
+b. embedded servletengine
+
+c. standalone servletengine
+
+d. none of the above
+
+Answer: c. standalone servletengine
+
+63. What type of servlets use these methods doGet(), doPost(),doHead, doDelete(), doTrace()?
+a. genereic servlets
+
+b. httpservlets
+
+c. all of the above
+
+d. none of the above
+
+Answer: b. httpservlets
+
+64. Which cookie it is valid for single session only and it is removed each time when the user closes the browser?
+a. persistent cookie
+
+b. non-persistent cookie
+
+c. all the above
+
+d. none of the above
+
+Answer: b. non-persistent cookie
+
+65. Which action tags are used in JSP for developing web application with Java Bean?
+a. jsp:usebean
+
+b. jsp:setproperty
+
+c. jsp:getproperty
+
+d. both b & c
+
+Answer: d. both b & c
+
+66. Which technology do we mix our business logic with the presentation logic?
+a. servlet
+
+b. jsp
+
+c. both a & b
+
+d. none of the above
+
+Answer: a. servlet
+
+67. Which tag is used to execute java source code in JSP?
+a. declaration tag
+
+b. scriptlet tag
+
+c. expression tag
+
+d. none of the above
+
+Answer: b. scriptlet tag
+
+68. Which JSP Action tags is used to include the content of another resource,it May be jsp, html or servlet?
+a. jsp:include
+
+b. jsp:forward
+
+c. jsp:plugin
+
+d. jsp:papam
+
+Answer: a. jsp:include
+
+69. In JSP how many ways are there to perform exception handling?
+a. 3
+
+b. 2
+
+c. 4
+
+d. 5
+
+Answer: b. 2
+
+70. In JSP page directive which attribute defines theMIME(Multipurpose Internet Mail Extension) type of the HTTP response?
+a. import
+
+b. content type
+
+c. extends
+
+d. info
+
+Answer: b. content type
+
+71. A JSP page consists of which tags?
+a. html tags
+
+b. jsp tags
+
+c. both a & b
+
+d. none of the above
+
+Answer: c. both a & b
+
+72. What alternatives exist to embedding Java code directly within the HTML markup of your JSP page?
+a. moving the code into your session manager.
+
+b. moving the code into scriptlets.
+
+c. moving the code into javabeans and servlets.
+
+d. moving the code into a transaction manager.
+
+Answer: c. moving the code into javabeans and servlets.
+
+73. What type of scriptlet code is better-suited to being factored forward into a servlet?
+a. code that deals with logic that is common across requests.
+
+b. code that deals with logic that is vendor specific)
+
+c. code that deals with logic that relates to database access.
+
+d. code that deals with logic that relates to client scope.
+
+Answer: a. code that deals with logic that is common across requests.
+
+74. URL encoding is the method of replacing all the spaces and other extra characters into their corresponding _______ Characters?
+a. hex
+
+b. binary
+
+c. octal
+
+d. decimal
+
+Answer: a. hex
+
+75. Which of the scripting of JSP not putting content into service method of the converted servlet?
+a. declarations
+
+b. scriptlets
+
+c. expressions
+
+d. none of the above
+
+Answer: a. declarations
+
+76. What requires less resources?
+a. thread
+
+b. process
+
+c. thread and process
+
+d. neither thread nor process
+
+Answer: a. thread
+
+77. What does not prevent JVM from terminating?
+a. process
+
+b. daemon thread
+
+c. user thread
+
+d. jvm thread
+
+Answer: b. daemon thread
+
+78. What decides thread priority?
+a. process
+
+b. process scheduler
+
+c. thread
+
+d. thread scheduler
+
+Answer: d. thread scheduler
+
+79. What should not be done to avoid deadlock?
+a. avoid using multiple threads
+
+b. avoid hold several locks at once
+
+c. execute foreign code while holding a lock
+
+d. use interruptible locks
+
+Answer: c. execute foreign code while holding a lock
+
+80. What is true about threading?
+a. run() method calls start() method and runs the code
+
+b. run() method creates new thread
+
+c. run() method can be called directly without start() method being called
+
+d. start() method creates new thread and calls code written in run() method
+
+Answer: d. start() method creates new thread and calls code written in run() method
+
+81. Which of the following is a correct constructor for thread?
+a. thread(runnable a, string str)
+
+b. thread(int priority)
+
+c. thread(runnable a, int priority)
+
+d. thread(runnable a, threadgroup t)
+
+Answer: a. thread(runnable a, string str)
+
+82. Which of the following will ensure the thread will be in running state?
+a. yield()
+
+b. notify()
+
+c. wait()
+
+d. thread.killthread()
+
+Answer: c. wait()
+
+83. Which of these are types of multitasking?
+a. process based
+
+b. thread based
+
+c. process and thread based
+
+d. none of the mentioned
+
+Answer: c. process and thread based
+
+84. What will happen if two thread of the same priority are called to be processed simultaneously?
+a. anyone will be executed first lexographically
+
+b. both of them will be executed simultaneously
+
+c. none of them will be executed
+
+d. it is dependent on the operating system
+
+Answer: d. it is dependent on the operating system
+
+85. In a RMI Client Program, what are the exceptions which might have to handled?
+a. remoteexception
+
+b. notboundexception
+
+c. malformedurlexception
+
+d. all mentioned above
+
+Answer: d. all mentioned above
+
+86. Which is a one-way communication only between the client and the server and it is not a reliable and there is no confirmation regarding reaching the message to the destination?
+a. tcp/ip
+
+b. udp
+
+c. both a & b
+
+d. none of the above
+
+Answer: b. udp
+
+87. An RMI Server is responsible for,
+a. creating an instance of the remote object
+
+b. exporting the remote object
+
+c. binding the instance of the remote object to the rmi registry
+
+d. all mentioned above
+
+Answer: d. all mentioned above
+
+88. In RMI Distributed object applications need to do?
+a. locate remote objects
+
+b. communicate with remote objects
+
+c. load class definitions for objects that are passed around
+
+d. all mentioned above
+
+Answer: d. all mentioned above
+
+89. In RMI applications which program obtains a remote reference to one or more remote objects on a server and then invokes methods on them?
+a. server
+
+b. client
+
+c. both a & b
+
+d. none of the above
+
+Answer: b. client
+
+90. Which package is used for Remote Method Invocation (RMI)?
+a. java.lang.rmi
+
+b. java.lang.reflect
+
+c. java.applet
+
+d. java.rmi
+
+Answer: d. java.rmi
+
+91. Java supports RMI, RMI Stands for?
+a. random method invocation
+
+b. remote memory interface
+
+c. remote method invocation
+
+d. random method invocation
+
+Answer: c. remote method invocation
+
+92. Which is built on the top of socket programming?
+a. ejb
+
+b. rmi
+
+c. both a & b
+
+d. none of the above
+
+Answer: b. rmi
+
+93. Which of these package contains classes and interfaces for networking?
+a. java.io
+
+b. java.util
+
+c. java.net
+
+d. javax.swing
+
+Answer: c. java.net
+
+94. In the following URL, identify the protocol identifier? https ://gtu.ac.in:8080/course.php
+a. http
+
+b. gtu.ac.in
+
+c. //gtu.ac.in:80/course.php
+
+d. 8080
+
+Answer: a. http
+
+95. Which of the following protocol follows connection less service?
+a. TCP
+
+b. TCP/IP
+
+c. UDP
+
+d. HTTP
+
+Answer: c. UDP
+
+96. Which of the following statement is NOT true?
+a. TCP is a reliable but slow.
+
+b. UDP is not reliable but fast.
+
+c. File Transfer Protocol (FTP) is a standard Internet protocol for transmitting files between computers on the Internet over TCP/IP connections.
+
+d. In HTTP, all communication between two computers are encrypted
+
+Answer: d. In HTTP, all communication between two computers are encrypted
+
+97. Which of the following statement is TRUE?
+a. With stream sockets there is no need to establish any connection and data flows between the processes are as continuous streams.
+
+b. Stream sockets are said to provide a connection-less service and UDP protocol is used
+
+c. Datagram sockets are said to provide a connection-oriented service and TCP protocol is used
+
+d. With datagram sockets there is no need to establish any connection and data flows between the processes are as packets.
+
+Answer: d. With datagram sockets there is no need to establish any connection and data flows between the processes are as packets.
+
+98. Which of the following method call is valid to obtain the server’s host name by invoking an applet?
+a. getCodeBase().host()
+
+b. getCodeBase().getHost()
+
+c. getCodeBase().hostName()
+
+d. getCodeBase().getHostName()
+
+Answer: b. getCodeBase().getHost()
+
+99. The server listens for a connection request from a client using which of the following statement?
+a. Socket s = new Socket(ServerName, port);
+
+b. Socket s = serverSocket.accept()
+
+c. Socket s = serverSocket.getSocket()
+
+d. Socket s = new Socket(ServerName);
+
+Answer: b. Socket s = serverSocket.accept()
+
+100. The client requests a connection to a server using which of the following statement?
+a. Socket s = new Socket(ServerName, port);
+
+b. Socket s = serverSocket.accept();
+
+c. Socket s = serverSocket.getSocket();
+
+d. Socket s = new Socket(ServerName);
+
+Answer: a. Socket s = new Socket(ServerName, port);
+
+101. To connect to a server running on the same machine with the client, which of the following cannotbe used for the hostname?
+a. “localhost”
+
+b. “127.0.0.1”
+
+c. InetAddress.getLocalHost(),
+
+d. “127.0.0.0”
+
+Answer: d. “127.0.0.0”
+
+102. In the socket programming, for an IP address, which can be used to find the host name and IP address of a client/ server?
+a. The ServerSocket class
+
+b. The Socket class
+
+c. The InetAddress class
+
+d. The Connection interface
+
+Answer: c. The InetAddress class
+
+103. To create an InputStream on a socket, say s, which of the following statement is necessary?
+a. InputStream in = new InputStream(s);
+
+b. InputStream in = s.getInputStream();
+
+c. InputStream in = s.obtainInputStream();
+
+d. InputStream in = s.getStream();
+
+Answer: b. InputStream in = s.getInputStream();
+
+104. Which of the following protocols is/are for splitting and sending packets to an address across a network?
+a. TCP/IP
+
+b. FTP
+
+c. SMTP
+
+d. UDP
+
+Answer: a. TCP/IP
+
+105. Which of these is a protocol for breaking and sending packets to an address across a network?
+a. TCP/IP
+
+b. DNS
+
+c. Socket
+
+d. Proxy Server
+
+Answer: a. TCP/IP
+
+106. Which of these class is used to encapsulate IP address and DNS?
+a. DatagramPacket
+
+b. URL
+
+c. InetAddress
+
+d. ContentHandler
+
+Answer: c. InetAddress
+
+107. Which of the following type of JDBC driver, is also called Type 2 JDBC driver?
+a. JDBC-ODBC Bridge plus ODBC driver
+
+b. Native-API, partly Java driver
+
+c. JDBC-Net, pure Java driver
+
+d. Native-protocol, pure Java driver
+
+Answer: b. Native-API, partly Java driver
+
+108. Which of the following type of JDBC driver, is also called Type 1 JDBC driver?
+a. JDBC-ODBC Bridge plus ODBC driver
+
+b. Native-API, partly Java driver
+
+c. JDBC-Net, pure Java driver
+
+d. Native-protocol, pure Java driver
+
+Answer: a. JDBC-ODBC Bridge plus ODBC driver
+
+109. Which of the following holds data retrieved from a database after you execute an SQL query using Statement objects?
+a. ResultSet
+
+b. JDBC driver
+
+c. Connection
+
+d. Statement
+
+Answer: a. ResultSet
+
+110. Which of the following is not a valid type of ResultSet?
+a. ResultSet.TYPE_FORWARD_ONLY
+
+b. ResultSet.TYPE_SCROLL_INSENSITIVE
+
+c. ResultSet.TYPE_SCROLL_SENSITIVE
+
+d. ResultSet.TYPE_BACKWARD_ONLY
+
+Answer: d. ResultSet.TYPE_BACKWARD_ONLY
+
+111. Which of the following type of JDBC driver, uses database native protocol?
+a. JDBC-ODBC Bridge plus ODBC driver
+
+b. Native-API, partly Java driver
+
+c. JDBC-Net, pure Java driver
+
+d. Native-protocol, pure Java driver
+
+Answer: d. Native-protocol, pure Java driver
+
+112. What is JDBC?
+a. JDBC is a java based protocol.
+
+b. JDBC is a standard Java API for database-independent connectivity between the Java programming language and a wide range of databases.
+
+c. JDBC is a specification to tell how to connect to a database.
+
+d. Joint Driver for Basic Connection
+
+Answer: b. JDBC is a standard Java API for database-independent connectivity between the Java programming language and a wide range of databases.
+
+113. Which of the following manages a list of database drivers in JDBC?
+a. DriverManager
+
+b. JDBC driver
+
+c. Connection
+
+d. Statement
+
+Answer: a. DriverManager
+
+114. Which of the following type of JDBC driver should be used if your Java application is accessing multiple types of databases at the same time?
+a. Type 1
+
+b. Type 2
+
+c. Type 3
+
+d. Type 4
+
+Answer: c. Type 3
+
+115. Which of the following is correct about JDBC?
+a. JDBC architecture decouples an abstraction from its implementation.
+
+b. JDBC follows a bridge design pattern.
+
+c. Both of the above.
+
+d. None of the above.
+
+Answer: c. Both of the above.
+
+116. Which of the following step establishes a connection with a database?
+a. Import packages containing the JDBC classes needed for database programming.
+
+b. Register the JDBC driver, so that you can open a communications channel with the database.
+
+c. Open a connection using the DriverManager.getConnection () method.
+
+d. Execute a query using an object of type Statement.
+
+Answer: c. Open a connection using the DriverManager.getConnection () method.
+
+117. Which of the following is true about JDBC?
+a. The JDBC API is an API to access different relational databases.
+
+b. You use it to access relational databases without embedding a dependency on a specific database type in your code.
+
+c. JDBC stands for Java DataBase Connectivity.
+
+d. All of the above.
+
+Answer: d. All of the above.
+
+118. How many Result sets available with the JDBC 2.0 core API?
+a. 2
+
+b. 3
+
+c. 4
+
+d. 5
+
+Answer: b. 3
+
+119. Which method is used to establish the connection with the specified url in a Driver Manager class?
+a. public static void registerDriver(Driver driver)
+
+b. public static void deregisterDriver(Driver driver)
+
+c. public static Connection getConnection(String url)
+
+d. public static Connection getConnection(String url,String userName,String password)
+
+Answer: c. public static Connection getConnection(String url)
+
+120. Which driver Network connection is indirect that a JDBC client makes to a middleware process that acts as a bridge to the DBMS server?
+a. JDBC-Net
+
+b. JDBC-ODBC bridge
+
+c. Native API as basis
+
+d. Native protocol as basis
+
+Answer: a. JDBC-Net
+
+121. JDBC RowSet is the wrapper of ResultSet,It holds tabular data like ResultSet but it is easy and flexible to use.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+122. The ResultSet.next method is used to move to the next row of the ResultSet, making it the current row.
+
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+123. Which JDBC product components does the Java software provide?
+a. The JDBC driver manager
+
+b. The JDBC driver test suite
+
+c. The JDBC-ODBC bridge
+
+d. All mentioned above
+
+Answer: d. All mentioned above
+
+124. Which class has traditionally been the backbone of the JDBC architecture?
+a. the JDBC driver manager
+
+b. the JDBC driver test suite
+
+c. the JDBC-ODBC bridge
+
+d. All mentioned above
+
+Answer: a. the JDBC driver manager
+
+125. Which was the first most widely used programming interface for accessing relational databases and it offers the ability to connect all the databases on all the platforms.?
+a. JDBC API
+
+b. ODBC API
+
+c. Both A & B
+
+d. None of the above
+
+Answer: b. ODBC API
+
+126. JDBC is a Java API that is used to connect and execute query to the database
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+127. In the following JDBC drivers which is known as fully java driver?
+a. Native-API driver
+
+b. Network Protocol driver
+
+c. Thin driver
+
+d. Both B & C
+
+Answer: d. Both B & C
+
+128. Which JDBC drivers will run your program?
+a. The JDBC-ODBC bridge
+
+b. The JDBC driver manager
+
+c. The JDBC driver test suite
+
+d. None of the above
+
+Answer: c. The JDBC driver test suite
+
+129. What is the reason that a java program cannot directly communicate with an ODBC driver?
+a. ODBC written in C# language
+
+b. ODBC written in C language
+
+c. ODBC written in C++ language
+
+d. None of the above
+
+Answer: b. ODBC written in C language
+
+130. A leading database connectivity vendor, worked together to produce the ____.
+a. JDBC-ODBC Bridge
+
+b. JDBC Driver Test Suite
+
+c. Both A & B
+
+d. None of the above
+
+Answer: c. Both A & B
+
+131. Which driver converts JDBC calls directly into the vendor-specific database protocol?
+a. Native – API driver
+
+b. Network Protocol driver
+
+c. Thin driver
+
+d. Both B & C
+
+Answer: c. Thin driver
+
+132. Which models do the JDBC API support for the database access?
+a. Two-tier models
+
+b. Three-tier models
+
+c. Both A & B
+
+d. None of the above
+
+Answer: c. Both A & B
+
+133. Which of the following JDBC drivers is known as a partially java driver?
+a. JDBC-ODBC bridge driver
+
+b. Native-API driver
+
+c. Network Protocol driver
+
+d. Thin driver
+
+Answer: b. Native-API driver
+
+134. The JDBC API is what allows access to a data source from a Java middle tier
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+135. Which driver uses ODBC driver to connect to the database?
+a. JDBC-ODBC bridge driver
+
+b. Native – API driver
+
+c. Network Protocol driver
+
+d. Thin driver
+
+Answer: a. JDBC-ODBC bridge driver
+
+136. How many JDBC product components does the Java software provides?
+a. 3
+
+b. 2
+
+c. 4
+
+d. 5
+
+Answer: a. 3
+
+137. How many types of JDBC drivers are available?
+a. 3
+
+b. 4
+
+c. 2
+
+d. 5
+
+Answer: b. 4
+
+138. Which method is used for an SQL statement that is executed frequently?
+a. prepareStatement
+
+b. prepareCall
+
+c. createStatement
+
+d. None of the above
+
+Answer: a. prepareStatement
+
+Servlet and Overview
+
+139. How is the dynamic interception of requests and responses to transform the information done?
+a. servlet container
+
+b. servlet config
+
+c. servlet context
+
+d. servlet filter
+
+Answer: d. servlet filter
+
+140. Which type of ServletEngine is a server that includes built-in support for servlets?
+a. Add-on ServletEngin
+
+b. Embedded ServletEngine
+
+c. Standalone ServletEngine
+
+d. None of the above
+
+Answer: c. Standalone ServletEngine
+
+141. What type of servlets use these methods doGet(), doPost(),doHead, doDelete(), doTrace()?
+a. Genereic Servlets
+
+b. HttpServlets
+
+c. All of the above
+
+d. None of the above
+
+Answer: b. Http Servlets
+
+142. Which cookie it is valid for single session only and it is removed each time when the user closes the browser?
+a. Persistent cookie
+
+b. Non-persistent cookie
+
+c. All the above
+
+d. None of the above
+
+Answer: b. Non-persistent cookie
+
+143. Sessions is a part of the SessionTracking and it is for maintaining the client state at server side.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+144. When destroy() method of a filter is called?
+a. The destroy() method is called only once at the end of the life cycle of a filter
+
+b. The destroy() method is called after the filter has executed doFilter method
+
+c. The destroy() method is called only once at the begining of the life cycle of a filter
+
+d. The destroyer() method is called after the filter has executed
+
+Answer: a. The destroy() method is called only once at the end of the life cycle of a filter
+
+145. Web server is used for loading the init() method of servlet.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+146. Servlets handle multiple simultaneous requests by using threads.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+147. Which method is used to send the same request and response objects to another servlet in RequestDispacher ?
+a. forward()
+
+b. sendRedirect()
+
+c. Both A & B
+
+d. None of the above
+
+Answer: a. forward()
+
+148. The sendRedirect() method of HttpServletResponse interface can be used to redirect response to another resource, it may be servlet, jsp or html file
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+149. Which packages represent interfaces and classes for servlet API?
+a. javax.servlet
+
+b. javax.servlet.http
+
+c. Both A & B
+
+d. None of the above
+
+Answer: c. Both A & B
+
+150. Which class can handle any type of request so that it is protocol-independent?
+a. GenericServlet
+
+b. HttpServle
+
+c. Both A & B
+
+d. None of the above
+
+Answer: a. GenericServlet
+
+151. Which HTTP Request method is non-idempotent?
+a. GET
+
+b. POST
+
+c. Both A & B
+
+d. None of the above
+
+Answer: c. Both A & B
+
+152. Which object is created by the web container at time of deploying the project?
+a. ServletConfig
+
+b. ServletContext
+
+c. Both A & B
+
+d. None of the above
+
+Answer: b. ServletContext
+
+153. What is the lifecycle of a servlet?
+a. Servlet class is loaded
+
+b. Servlet instance is created
+
+c. init,Service,destroy method is invoked
+
+d. All mentioned above
+
+Answer: d. All mentioned above
+
+154. Which method in session tracking is used in a bit of information that is sent by a web server to a browser and which can later be read back from that browser?
+a. HttpSession
+
+b. URL rewriting
+
+c. Cookies
+
+d. Hidden form fields
+
+Answer: c. Cookies
+
+155. Which are the examples of Application Server?
+a. Apache
+
+b. Tomcat
+
+c. JBoss
+
+d. Weblogic
+
+Answer: c. JBoss
+
+156. How many techniques are used in Session Tracking?
+a. 4
+
+b. 3
+
+c. 2
+
+d. 5
+
+Answer: a. 4
+
+157. In HTTP Request method Get request is secured because data is exposed in URL bar
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: b. False
+
+158. In the following statements identify the disadvantages of CGI?
+a. If number of clients increases, it takes more time for sending response
+
+b. For each request, it starts a process and Web server is limited to start processes
+
+c. It uses platform dependent language e.g. C, C++, perl
+
+d. All mentioned above
+
+Answer: d. All mentioned above
+
+159. Servlet technology is used to create web application
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+160. Which method is used to specify before any lines that uses the PintWriter?
+a. setPageType()
+
+b. setContextType()
+
+c. setContentType()
+
+d. setResponseType()
+
+Answer: c. setContentType()
+
+161. What are functions of Servlet container?
+a. Lifecycle management
+
+b. Communication Support
+
+c. Multithreading Support
+
+d. All of the above
+
+Answer: d. All of the above
+
+162. Which object of Http Session can be used to view and manipulate information about a session?
+a. session identifier
+
+b. creation time
+
+c. last accessed time
+
+d. All mentioned above
+
+Answer: d. All mentioned above
+
+163. Which methods are used to bind the objects on HttpSession instance and get the objects?
+a. setAttribute
+
+b. getAttribute
+
+c. Both A & B
+
+d. None of the above
+
+Answer: c. Both A & B
+
+164. Which method take a string not a URL?
+a. sendRedirect
+
+b. forward
+
+c. Both
+
+d. None
+
+Answer: a. sendRedirect
+
+165. Which of the following are interface?
+
+ServletContext
+Servlet
+GenericServlet
+HttpServlet
+a. 1,2,3,4
+
+b. 1,2
+
+c. 1,2,3
+
+d. 1,4
+
+Answer: b. 1,2
+
+166. The life cycle of a servlet is managed by
+a. servlet context
+
+b. servlet container
+
+c. the supporting protocol (such as http or https)
+
+d. All of the above
+
+Answer: b. servlet container
+
+167. Which of the following code is used to get an attribute in a HTTP Session object in servlets?
+a. session.getAttribute(String name)
+
+b. session.alterAttribute(String name)
+
+c. session.updateAttribute(String name)
+
+d. session.setAttribute(String name)
+
+Answer: a. session.getAttribute(String name)
+
+168. What is the difference between servlets and applets?
+i. Servlets execute on Server; Applets execute on browser ii. Servlets have no GUI; Applet has GUI iii. Servlets creates static web pages; Applets creates dynamic web pages iv. Servlets can handle only a single request; Applet can handle multiple requests
+a. i, ii, iii are correct
+
+b. i, ii are correct
+
+c. i, iii are correct
+
+d. i, ii, iii, iv are correct
+
+Answer: b. i, ii are correct
+
+169. Which are the session tracking techniques? i. URL rewriting ii. Using session object iii.Using response object iv. Using hidden fields v. Using cookies vi. Using servlet object
+
+a. i, ii, iii, vi
+
+b. i, ii, iv, v
+
+c. i, vi, iii, v
+
+d. i, ii, iii, v
+
+Answer: b. i, ii, iv, v
+
+170. A deployment descriptor describes
+a. Web component response settings
+
+b. Web component setting
+
+c. Web component request objects
+
+d. All of the above
+
+Answer: b. Web component setting
+
+171. The values of and in web.xml file
+a. must be same
+
+b. must not be same
+
+c. may be same
+
+d. None of the above
+
+Answer: c. may be same
+
+JSP
+
+172. Which one is the correct order of phases in JSP life cycle?
+a. Initialization, Cleanup, Compilation, Execution
+
+b. Initialization, Compilation, Cleanup, Execution
+
+c. Compilation, Initialization, Execution, Cleanup
+
+d. Cleanup, Compilation, Initialization, Execution
+
+Answer: c. Compilation, Initialization, Execution, Cleanup
+
+173. Which technology do we mix our business logic with the presentation logic?
+a. Servlet
+
+b. JSP
+
+c. Both A and B
+
+d. None of the above
+
+Answer: a. Servlet
+
+174. Which attribute specifies a JSP page that should process any exceptions thrown but not caught in the current page?
+a. The ErrorPage Attribute
+
+b. The IsErrorPage Attribute
+
+c. Both A & B
+
+d. None of the above
+
+Answer: a. The ErrorPage Attribute
+
+175. The ASP and JSP technologies are quite similar in the way they support the creation of Dynamic pages, using HTML templates, scripting code and components for business logic.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+176. Which of the following is an advantage of the statement – Separation of business logic from JSP ?
+a. Custom Tags in JSP
+
+b. JSP Standard Tag Library
+
+c. All the above
+
+d. None of the above
+
+Answer: a. Custom Tags in JSP
+
+177. JSPs eventually are compiled into Java servlets, you can do as much with JSPs as you can do with Java servlets.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+178. Java Server Pages often serve the same purpose as programs implemented using the Common Gateway Interface (CGI)
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+179. Which is the Microsoft solution for providing dynamic Web content?
+a. ASP
+
+b. JSP
+
+c. Both A and B
+
+d. None of the above
+
+Answer: a. ASP
+
+180. Which tag is used to execute java source code in JSP?
+a. Declaration Tag
+
+b. Scriptlet tag
+
+c. Expression tag
+
+d. None of the above
+
+Answer: b. Scriptlet tag
+
+181. A JSP page consists of which tags?
+a. HTML tags
+
+b. JSP tags
+
+c. Both A & B
+
+d. None of the above
+
+Answer: c. Both A & B
+
+182. Which packages does a JSP API consist of?
+a. javax.servlet.jsp
+
+b. java.servlet
+
+c. javax.servlet.jsp.tagext
+
+d. Both A & C
+
+Answer: d. Both A & C
+
+183. Which of the scripting of JSP not putting content into service method of the converted servlet?
+a. Declarations
+
+b. Scriptlets
+
+c. Expressions
+
+d. None of the above
+
+Answer: c. Expressions
+
+184. The difference between Servlets and JSP is the …………….
+a. translation
+
+b. compilation
+
+c. syntax
+
+d. Both A and B
+
+Answer: c. syntax
+
+185. Which of the following are the valid scopes in JSP?
+a. request, page, session, application
+
+b. request, page, session, global
+
+c. response, page, session, application
+
+d. request, page, context, application
+
+Answer: a. request, page, session, application
+
+186. JSP includes a mechanism for defining …………………………. or custom tags.
+a. static attributes
+
+b. local attributes
+
+c. dynamic attributes
+
+d. global attributes
+
+Answer: c. dynamic attributes
+
+187. Why DB connections are not written directly in JSPs?
+a. Response is slow
+
+b. Not a standard J2EE architecture
+
+c. Load Balancing is not possible
+
+d. Both B and C
+
+Answer: d. Both B and C
+
+188. Which is not a directive?
+a. include
+
+b. page
+
+c. export
+
+d. taglib
+
+Answer: c. export
+
+189. Which http method send by browser that asks the server to get the page only?
+a. get
+
+b. option
+
+c. put
+
+d. post
+
+Answer: a. get
+
+190. Which tag should be used to pass information from JSP to included JSP?
+a. Using <%jsp:page> tag
+
+b. Using <%jsp:param> tag
+
+c. Using <%jsp:import> tag
+
+d. Using <%jsp:useBean> tag
+
+Answer: a. Using <%jsp:page> tag
+
+191. _jspService() method of HttpJspPage class should not be overridden.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+192. Which is not a directive?
+a. include
+
+b. page
+
+c. export
+
+d. useBean
+
+Answer: c. export
+
+193. Attribute used to handle web flow requests.
+a. servlet-mapping
+
+b. servlet-attr
+
+c. servlet-flow
+
+d. servlet-requests
+
+Answer: a. servlet-mapping
+
+194. To resolve Facelets views we configure:
+a. ViewFacelets
+
+b. ViewResolver
+
+c. View-resolver
+
+d. View_Resolver
+
+Answer: b. ViewResolver
+
+195. File extension of a view state’s name which is by default loaded by facelet page.
+a. .xml
+
+b. .hbm.xml
+
+c. .xhtml
+
+d. none of the mentioned
+
+Answer: c. .xhtml
+
+196. Navigation in traditional JSF applications is handled by:
+a. linking directly linking to a resource
+
+b. commandLink
+
+c. invoking an action
+
+d. all of the mentioned
+
+Answer: d. all of the mentioned
+
+197. For cross field validation or some sort of barrier to ensure state before you start a flow, we use.
+a. FacesContext
+
+b. FaceletContext
+
+c. FacesResolver
+
+d. All of the mentioned
+
+Answer: a. FacesContext
+
+198. Component which additionally provides a pop-up date picker control for its enclosed input field.
+a. clientDateValidator
+
+b. clientValidator
+
+c. dateValidator
+
+d. validator
+
+Answer: a. clientDateValidator
+
+199. Component which encloses command button.
+a. validateAll
+
+b. validateAllClick
+
+c. validateAllInClick
+
+d. validateAllOnClick
+
+Answer: c. validateAllInClick
+
+Hibernate
+
+200. Which of the following is not a core interface of Hibernate?
+a. Configuration
+
+b. Criteria
+
+c. SessionManagement
+
+d. Session
+
+Answer: c. SessionManagement
+
+201. Which of the following is not a core component of Hibernate?
+a. JDBC
+
+b. SessionFactory
+
+c. Session
+
+d. Configuration
+
+Answer: a. JDBC
+
+202. Is Session a thread-safe object?
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: b. False
+
+203. Session Factory is a thread-safe object.
+a. True
+
+b. False
+
+c. none
+
+d. all
+
+Answer: a. True
+
+204. Which of the following methods returns proxy object?
+a. loadDatabase()
+
+b. getDatabase()
+
+c. load()
+
+d. get()
+
+Answer: c. load()
+
+205. Which of the following methods hits database always?
+a. load()
+
+b. loadDatabase()
+
+c. getDatabase()
+
+d. get()
+
+Answer: d. get()
+
+206. Which of the following method is used inside session only?
+a. merge()
+
+b. update()
+
+c. end()
+
+d. kill()
+
+Answer: b. update()
+
+207. The Session Factory is heavyweight object.
+a. False
+
+b. True
+
+c. none
+
+d. all
+
+Answer: b. True
+
+208. Which of the following is not a state of object in Hibernate?
+a. Attached()
+
+b. Detached()
+
+c. Persistent()
+
+d. Transient()
+
+Answer: a. Attached()
+
+209. Which of the following is true about HQL?
+a. HQL takes java objects in the same way as SQL takes tables.
+
+b. HQL is a Object Oriented Query language
+
+c. HQL is database independent.
+
+d. All of the above.
+
+Answer: d. All of the above.
+
+210. Which of the following is not an inheritance mapping strategies?
+a. Table per hierarchy
+
+b. Table per concrete class
+
+c. Table per subclass
+
+d. Table per class
+
+Answer: d. Table per class
+
+211. Which of the following is not an advantage of using Hibernate Query Language?
+a. Database independent
+
+b. Easy to write query
+
+c. No need to learn SQL
+
+d. Difficult to implement
+
+Answer: d. Difficult to implement
+
+212. In which file database table configuration is stored?
+a. .dbm
+
+b. .hbm
+
+c. .ora
+
+d. .sql
+
+Answer: b. .hbm
+
+213. Which of the following is not an advantage of Hibernate Criteria API?
+a. Allows to use aggregate functions
+
+b. Cannot order the result set
+
+c. Allows to fetch only selected columns of result
+
+d. Can add conditions while fetching results
+
+Answer: b. Cannot order the result set
+
+Spring
+
+214. What is the basic concept of Spring?
+a. Factory pattern
+
+b. Singleton pattern
+
+c. Dependency injection or Inversion of control
+
+d. Abstract factory pattern
+
+Answer: c. Dependency injection or Inversion of control
+
+215. Which spring module provides the capability of DI or IOC?
+a. Spring web
+
+b. Core container
+
+c. AOP
+
+d. Data access
+
+Answer: b. Core container
+
+216. What are beans in the concept of Spring or what are spring beans?
+a. Controller classes
+
+b. Service classes
+
+c. Repository
+
+d. Any class that is managed by the container.
+
+Answer: d. Any class that is managed by the container.
+
+217. How does spring achieve DI or IOC?
+a. Service locator pattern
+
+b. Factory pattern
+
+c. Abstract factory pattern
+
+d. Singleton pattern
+
+Answer: a. Service locator pattern
+
+218. Which interface in spring is responsible for Instantiating and managing the so called Spring beans?
+a. Bean Factory
+
+b. ApplicationContext
+
+c. BeanDefenition
+
+d. BeanDefenition
+
+Answer: b. ApplicationContext
+
+219. Beans can be created by which of the following properties?
+a. Scope
+
+b. Property
+
+c. Class
+
+d. It’s own constructor
+
+Answer: d. It’s own constructor
+
+220. Which attribute is used to specify class name of the bean?
+a. name
+
+b. id
+
+c. class
+
+d. constructor-args
+
+Answer: c. class
+
+221. Which of the following method can be used to used to instantiate a method?
+a. static factory method
+
+b. default-init method
+
+c. destroy method
+
+d. lazy-init method
+
+Answer: a. static factory method
+
+222. Which attribute is used to specify static factory-method?
+a. factory-method
+
+b. default-init method
+
+c. destroy method
+
+d. lazy-init method
+
+Answer: a. factory-method
+
+223. Purpose of Static Factory Method?
+a. Static method to create an object
+
+b. Initialize bean
+
+c. All of the mentioned
+
+d. None of the mentioned
+
+Answer: a. Static method to create an object
+
+
+
+

@@ -1,0 +1,497 @@
+1. Who developed Python Programming Language?
+a) Wick van Rossum
+b) Rasmus Lerdorf
+c) Guido van Rossum
+d) Niene Stom
+ 
+
+Answer: c
+2. Which type of Programming does Python support?
+a) object-oriented programming
+b) structured programming
+c) functional programming
+d) all of the mentioned
+ 
+
+Answer: d
+3. Is Python case sensitive when dealing with identifiers?
+a) no
+b) yes
+c) machine dependent
+d) none of the mentioned
+ 
+
+Answer: a
+4. Which of the following is the correct extension of the Python file?
+a) .python
+b) .pl
+c) .py
+d) .p
+ 
+
+Answer: c
+5. Is Python code compiled or interpreted?
+a) Python code is both compiled and interpreted
+b) Python code is neither compiled nor interpreted
+c) Python code is only compiled
+d) Python code is only interpreted
+ 
+
+Answer: b
+6. All keywords in Python are in _________
+a) Capitalized
+b) lower case
+c) UPPER CASE
+d) None of the mentioned
+ 
+
+Answer: d
+7. What will be the value of the following Python expression?
+
+4 + 3 % 5
+a) 7
+b) 2
+c) 4
+d) 1
+ 
+
+Answer: a
+8. Which of the following is used to define a block of code in Python language?
+a) Indentation
+b) Key
+c) Brackets
+d) All of the mentioned
+ 
+
+Answer: a
+9. Which keyword is used for function in Python language?
+a) Function
+b) Def
+c) Fun
+d) Define
+ 
+
+Answer: b
+10. Which of the following character is used to give single-line comments in Python?
+a) //
+b) #
+c) !
+d) /*
+ 
+
+Answer: b
+11. What will be the output of the following Python code?
+
+i = 1
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+ 
+    i + = 1
+a) 1 2 3
+b) error
+c) 1 2
+d) none of the mentioned
+ 
+
+Answer: b
+12. Which of the following functions can help us to find the version of python that we are currently working on?
+a) sys.version(1)
+b) sys.version(0)
+c) sys.version()
+d) sys.version
+ 
+
+Answer: a
+13. Python supports the creation of anonymous functions at runtime, using a construct called __________
+a) pi
+b) anonymous
+c) lambda
+d) none of the mentioned
+ 
+
+Answer: c
+14. What is the order of precedence in python?
+a) Exponential, Parentheses, Multiplication, Division, Addition, Subtraction
+b) Exponential, Parentheses, Division, Multiplication, Addition, Subtraction
+c) Parentheses, Exponential, Multiplication, Division, Subtraction, Addition
+d) Parentheses, Exponential, Multiplication, Division, Addition, Subtraction
+ 
+
+Answer: d
+15. What will be the output of the following Python code snippet if x=1?
+
+x<<2
+a) 4
+b) 2
+c) 1
+d) 8
+ 
+
+Answer: a
+16. What does pip stand for python?
+a) unlimited length
+b) all private members must have leading and trailing underscores
+c) Preferred Installer Program
+d) none of the mentioned
+ 
+
+Answer: c
+17. Which of the following is true for variable names in Python?
+a) underscore and ampersand are the only two special characters allowed
+b) unlimited length
+c) all private members must have leading and trailing underscores
+d) none of the mentioned
+ 
+
+Answer: b
+18. What are the values of the following Python expressions?
+
+ 2**(3**2)
+ (2**3)**2
+ 2**3**2
+a) 512, 64, 512
+b) 512, 512, 512
+c) 64, 512, 64
+d) 64, 64, 64
+ 
+
+Answer: a
+19. Which of the following is the truncation division operator in Python?
+a) |
+b) //
+c) /
+d) %
+ 
+
+Answer: b
+20. What will be the output of the following Python code?
+
+l=[1, 0, 2, 0, 'hello', '', []]
+list(filter(bool, l))
+a) [1, 0, 2, ‘hello’, ”, []]
+b) Error
+c) [1, 2, ‘hello’]
+d) [1, 0, 2, 0, ‘hello’, ”, []]
+ 
+
+Answer: c
+21. Which of the following functions is a built-in function in python?
+a) factorial()
+b) print()
+c) seed()
+d) sqrt()
+ 
+
+Answer: b
+22. Which of the following is the use of id() function in python?
+a) Every object doesn’t have a unique id
+b) Id returns the identity of the object
+c) All of the mentioned
+d) None of the mentioned
+ 
+
+Answer: b
+23. The following python program can work with ____ parameters.
+
+def f(x):
+    def f1(*args, **kwargs):
+           print("Sanfoundry")
+           return x(*args, **kwargs)
+    return f1
+a) any number of
+b) 0
+c) 1
+d) 2
+ 
+
+Answer: a
+24. What will be the output of the following Python function?
+
+min(max(False,-3,-4), 2,7)
+a) -4
+b) -3
+c) 2
+d) False
+ 
+
+Answer: d
+25. Which of the following is not a core data type in Python programming?
+a) Tuples
+b) Lists
+c) Class
+d) Dictionary
+ 
+
+Answer: c
+26. What will be the output of the following Python expression if x=56.236?
+
+print("%.2f"%x)
+a) 56.236
+b) 56.23
+c) 56.0000
+d) 56.24
+ 
+
+Answer: d
+27. Which of these is the definition for packages in Python?
+a) A set of main modules
+b) A folder of python modules
+c) A number of files containing Python definitions and statements
+d) A set of programs making use of Python modules
+ 
+
+Answer: b
+28. What will be the output of the following Python function?
+
+len(["hello",2, 4, 6])
+a) Error
+b) 6
+c) 4
+d) 3
+ 
+
+Answer: c
+29. What will be the output of the following Python code?
+
+x = 'abcd'
+for i in x:
+    print(i.upper())
+a) a B C D
+b) a b c d
+c) error
+d) A B C D
+ 
+
+Answer: d
+30. What is the order of namespaces in which Python looks for an identifier?
+a) Python first searches the built-in namespace, then the global namespace and finally the local namespace
+b) Python first searches the built-in namespace, then the local namespace and finally the global namespace
+c) Python first searches the local namespace, then the global namespace and finally the built-in namespace
+d) Python first searches the global namespace, then the local namespace and finally the built-in namespace
+ 
+
+Answer: c
+31. What will be the output of the following Python code snippet?
+
+for i in [1, 2, 3, 4][::-1]:
+    print (i)
+a) 4 3 2 1
+b) error
+c) 1 2 3 4
+d) none of the mentioned
+ 
+
+Answer: a
+32. What will be the output of the following Python statement?
+
+>>>"a"+"bc"
+a) bc
+b) abc
+c) a
+d) bca
+ 
+
+Answer: b
+33. Which function is called when the following Python program is executed?
+
+f = foo()
+format(f)
+a) str()
+b) format()
+c) __str__()
+d) __format__()
+ 
+
+Answer: c
+34. Which one of the following is not a keyword in Python language?
+a) pass
+b) eval
+c) assert
+d) nonlocal
+ 
+
+Answer: b
+35. What will be the output of the following Python code?
+
+class tester:
+    def __init__(self, id):
+        self.id = str(id)
+        id="224"
+ 
+>>>temp = tester(12)
+>>>print(temp.id)
+a) 12
+b) 224
+c) None
+d) Error
+ 
+
+Answer: a
+36. What will be the output of the following Python program?
+
+def foo(x):
+    x[0] = ['def']
+    x[1] = ['abc']
+    return id(x)
+q = ['abc', 'def']
+print(id(q) == foo(q))
+a) Error
+b) None
+c) False
+d) True
+ 
+
+Answer: d
+37. Which module in the python standard library parses options received from the command line?
+a) getarg
+b) getopt
+c) main
+d) os
+ 
+
+Answer: b
+38. What will be the output of the following Python program?
+
+z=set('abc')
+z.add('san')
+z.update(set(['p', 'q']))
+z
+a) {‘a’, ‘c’, ‘c’, ‘p’, ‘q’, ‘s’, ‘a’, ‘n’}
+b) {‘abc’, ‘p’, ‘q’, ‘san’}
+c) {‘a’, ‘b’, ‘c’, ‘p’, ‘q’, ‘san’}
+d) {‘a’, ‘b’, ‘c’, [‘p’, ‘q’], ‘san}
+ 
+
+Answer: c
+39. What arithmetic operators cannot be used with strings in Python?
+a) *
+b) –
+c) +
+d) All of the mentioned
+ 
+
+Answer: b
+40. What will be the output of the following Python code?
+
+print("abc. DEF".capitalize())
+a) Abc. def
+b) abc. def
+c) Abc. Def
+d) ABC. DEF
+ 
+
+Answer: a
+41. Which of the following statements is used to create an empty set in Python?
+a) ( )
+b) [ ]
+c) { }
+d) set()
+ 
+
+Answer: d
+42. What will be the value of ‘result’ in following Python program?
+
+list1 = [1,2,3,4]
+list2 = [2,4,5,6]
+list3 = [2,6,7,8]
+result = list()
+result.extend(i for i in list1 if i not in (list2+list3) and i not in result)
+result.extend(i for i in list2 if i not in (list1+list3) and i not in result)
+result.extend(i for i in list3 if i not in (list1+list2) and i not in result)
+a) [1, 3, 5, 7, 8]
+b) [1, 7, 8]
+c) [1, 2, 4, 7, 8]
+d) error
+ 
+
+Answer: a
+43. To add a new element to a list we use which Python command?
+a) list1.addEnd(5)
+b) list1.addLast(5)
+c) list1.append(5)
+d) list1.add(5)
+ 
+
+Answer: c
+44. What will be the output of the following Python code?
+
+print('*', "abcde".center(6), '*', sep='')
+a) * abcde *
+b) *abcde *
+c) * abcde*
+d) * abcde *
+ 
+
+Answer: b
+45. What will be the output of the following Python code?
+
+>>>list1 = [1, 3]
+>>>list2 = list1
+>>>list1[0] = 4
+>>>print(list2)
+a) [1, 4]
+b) [1, 3, 4]
+c) [4, 3]
+d) [1, 3]
+ 
+
+Answer: c
+46. Which one of the following is the use of function in python?
+a) Functions don’t provide better modularity for your application
+b) you can’t also create your own functions
+c) Functions are reusable pieces of programs
+d) All of the mentioned
+ 
+
+Answer: c
+47. Which of the following Python statements will result in the output: 6?
+
+A = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+a) A[2][1]
+b) A[1][2]
+c) A[3][2]
+d) A[2][3]
+ 
+
+Answer: b
+48. What is the maximum possible length of an identifier in Python?
+a) 79 characters
+b) 31 characters
+c) 63 characters
+d) none of the mentioned
+ 
+
+Answer: d
+49. What will be the output of the following Python program?
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    if i == 3:
+        break
+else:
+    print(0)
+a) error
+b) 0 1 2 0
+c) 0 1 2
+d) none of the mentioned
+ 
+
+Answer: c
+50. What will be the output of the following Python code?
+
+x = 'abcd'
+for i in range(len(x)):
+    print(i)
+a) error
+b) 1 2 3 4
+c) a b c d
+d) 0 1 2 3
+ 
+
+Answer: d

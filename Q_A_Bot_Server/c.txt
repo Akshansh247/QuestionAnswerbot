@@ -1,0 +1,258 @@
+1. Who is the father of C language?
+a) Steve Jobs
+b) James Gosling
+c) Dennis Ritchie
+d) Rasmus Lerdorf
+
+Answer: c
+
+2. Which of the following is not a valid C variable name?
+a) int number;
+b) float rate;
+c) int variable_count;
+d) int $main;
+
+Answer: d
+3. All keywords in C are in ____________
+a) LowerCase letters
+b) UpperCase letters
+c) CamelCase letters
+d) None of the mentioned
+
+Answer: a
+
+4. Which of the following is true for variable names in C?
+a) They can contain alphanumeric characters as well as special characters
+b) It is not an error to declare a variable to be one of the keywords(like goto, static)
+c) Variable names cannot start with a digit
+d) Variable can be of any length
+
+Answer: c
+5. Which is valid C expression?
+a) int my_num = 100,000;
+b) int my_num = 100000;
+c) int my num = 1000;
+d) int $my_num = 10000;
+
+Answer: b
+6. Which of the following cannot be a variable name in C?
+a) volatile
+b) true
+c) friend
+d) export
+
+Answer: a
+7. What is short int in C programming?
+a) The basic data type of C
+b) Qualifier
+c) Short is the qualifier and int is the basic data type
+d) All of the mentioned
+
+Answer: c
+8. Which of the following declaration is not supported by C language?
+a) String str;
+b) char *str;
+c) float str = 3e2;
+d) Both String str; & float str = 3e2;
+
+Answer: a
+ : It is legal in Java, but not in C language.
+9. Which keyword is used to prevent any changes in the variable within a C program?
+a) immutable
+b) mutable
+c) const
+d) volatile
+
+Answer: c
+ : const is a keyword constant in C program.
+10. What is the result of logical or relational expression in C?
+a) True or False
+b) 0 or 1
+c) 0 if an expression is false and any positive number if an expression is true
+d) None of the mentioned
+
+Answer: b
+  
+11. Which of the following typecasting is accepted by C language?
+a) Widening conversions
+b) Narrowing conversions
+c) Widening & Narrowing conversions
+d) None of the mentioned
+
+Answer: c
+  
+12. Where in C the order of precedence of operators do not exist?
+a) Within conditional statements, if, else
+b) Within while, do-while
+c) Within a macro definition
+d) None of the mentioned
+
+Answer: d
+  
+13. Which of the following is NOT possible with any 2 operators in C?
+a) Different precedence, same associativity
+b) Different precedence, different associativity
+c) Same precedence, different associativity
+d) All of the mentioned
+
+Answer: c
+  
+14. What is an example of iteration in C?
+a) for
+b) while
+c) do-while
+d) all of the mentioned
+
+Answer: d
+  
+15. Functions can return enumeration constants in C?
+a) true
+b) false
+c) depends on the compiler
+d) depends on the standard
+
+Answer: a
+  
+16. Functions in C Language are always _________
+a) Internal
+b) External
+c) Both Internal and External
+d) External and Internal are not valid terms for functions
+
+Answer: b
+  
+17. Which of following is not accepted in C?
+a) static a = 10; //static as
+b) static int func (int); //parameter as static
+c) static static int a; //a static variable prefixed with static
+d) all of the mentioned
+
+Answer: c
+  
+18. Property which allows to produce different executable for different platforms in C is called?
+a) File inclusion
+b) Selective inclusion
+c) Conditional compilation
+d) Recursive macros
+
+Answer: c
+19. What is #include <stdio.h>?
+a) Preprocessor directive
+b) Inclusion directive
+c) File inclusion directive
+d) None of the mentioned
+
+Answer: a
+  
+20. C preprocessors can have compiler specific features.
+a) True
+b) False
+c) Depends on the standard
+d) Depends on the platform
+
+Answer: a
+ : #pragma is compiler specific feature.
+21. Which of the following are C preprocessors?
+a) #ifdef
+b) #define
+c) #endif
+d) all of the mentioned
+
+Answer: d
+  
+22. The C-preprocessors are specified with _________ symbol.
+a) #
+b) $
+c) ” ”
+d) &
+
+Answer: a
+23. How is search done in #include and #include “somelibrary.h” according to C standard?
+a) When former is used, current directory is searched and when latter is used, standard directory is searched
+b) When former is used, standard directory is searched and when latter is used, current directory is searched
+c) When former is used, search is done in implementation defined manner and when latter is used, current directory is searched
+d) For both, search for ‘somelibrary’ is done in implementation-defined places
+
+Answer: d
+  
+24. How many number of pointer (*) does C have against a pointer variable declaration?
+a) 7
+b) 127
+c) 255
+d) No limits
+
+Answer: d
+  
+25. Which of the following is not possible statically in C language?
+a) Jagged Array
+b) Rectangular Array
+c) Cuboidal Array
+d) Multidimensional Array
+
+Answer: a
+  
+26. Which of the following return-type cannot be used for a function in C?
+a) char *
+b) struct
+c) void
+d) none of the mentioned
+
+Answer: d
+  
+27. The standard header _______ is used for variable list arguments (…) in C.
+a) <stdio.h >
+b) <stdlib.h>
+c) <math.h>
+d) <stdarg.h>
+
+Answer: d
+  
+28. When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?
+a) Standard input
+b) Standard output
+c) Standard error
+d) All of the mentioned
+
+Answer: d
+  
+29. In C language, FILE is of which data type?
+a) int
+b) char *
+c) struct
+d) None of the mentioned
+
+Answer: c
+  
+30. What is the sizeof(char) in a 32-bit C compiler?
+a) 1 bit
+b) 2 bits
+c) 1 Byte
+d) 2 Bytes
+
+Answer: c
+  
+31. Which of the following is not an operator in C?
+a) ,
+b) sizeof()
+c) ~
+d) None of the mentioned
+
+Answer: d
+  
+32. scanf() is a predefined function in______header file.
+a) stdlib. h
+b) ctype. h
+c) stdio. h
+d) stdarg. h
+
+Answer: c
+33. What is meant by ‘a’ in the following C operation?
+
+fp = fopen("Random.txt", "a");
+a) Attach
+b) Append
+c) Apprehend
+d) Add
+
+Answer: b
+  
